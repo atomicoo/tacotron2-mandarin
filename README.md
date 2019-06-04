@@ -3,26 +3,26 @@ Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network archit
 
 ## Repo Structure ##
 	tacotron-2-mandarin-griffin-lim
-	|- datasets
-	|- logs-Tacotron
-	   |- eval-dir
-	   |- plots
-	   |- taco_pretrained
-	   |- wavs
-	|- papers
-	|- prepare
-	|- tacotron
-	   |- models
-	   |- utils
-	|- tacotron_output
-	   |- eval
-	   |- logs-eval
-	      |- plots
-	      |- wavs
-	|- training_data
-	   |- audio
-	   |- linear
-	   |- mels
+	|--- datasets
+	|--- logs-Tacotron
+	     |--- eval-dir
+	     |--- plots
+	     |--- taco_pretrained
+	     |--- wavs
+	|--- papers
+	|--- prepare
+	|--- tacotron
+	     |--- models
+	     |--- utils
+	|--- tacotron_output
+	     |--- eval
+	     |--- logs-eval
+	          |--- plots
+	          |--- wavs
+	|--- training_data
+	     |--- audio
+	     |--- linear
+	     |--- mels
 
 ## Quick Start ##
 
@@ -55,12 +55,12 @@ cd tacotron-2-mandarin-griffin-lim/
 
    ```
    tacotron-2-mandarin-griffin-lim
-   |- ...
-   |- BZNSYP
-      |- ProsodyLabeling
-         |- 000001-010000.txt
-      |- Wave
-   |- ...
+   |--- ...
+   |--- BZNSYP
+        |--- ProsodyLabeling
+             |--- 000001-010000.txt
+        |--- Wave
+   |--- ...
    ```
 
 2. Prepare dataset (default is `BIAOBEI`)
@@ -75,10 +75,10 @@ cd tacotron-2-mandarin-griffin-lim/
 
    ```
    tacotron-2-mandarin-griffin-lim
-   |- ...
-   |- BIAOBEI
-      |- biaobei_48000
-   |- ...
+   |--- ...
+   |--- BIAOBEI
+        |--- biaobei_48000
+   |--- ...
    ```
 
 3. Preprocess dataset (default is `BIAOBEI`)
@@ -93,13 +93,13 @@ cd tacotron-2-mandarin-griffin-lim/
 
    ```
    tacotron-2-mandarin-griffin-lim
-   |- ...
-   |- training_data
-      |- audio
-      |- linear
-      |- mels
-      |- train.txt
-   |- ...
+   |--- ...
+   |--- training_data
+        |--- audio
+        |--- linear
+        |--- mels
+        |--- train.txt
+   |--- ...
    ```
 
 **Step (3)**  Train tacotron model
@@ -114,13 +114,13 @@ After that, you can get a folder `logs-Tacotron` as follow:
 
 ```
 tacotron-2-mandarin-griffin-lim
-|- ...
-|- logs-Tacotron
-   |- eval-dir
-   |- plots
-   |- taco_pretrained
-   |- wavs
-|- ...
+|--- ...
+|--- logs-Tacotron
+     |--- eval-dir
+     |--- plots
+     |--- taco_pretrained
+     |--- wavs
+|--- ...
 ```
 
 **Step (4)**  Synthesize audio
@@ -135,12 +135,12 @@ After that, you can get a folder `tacotron_output` as follow:
 
 ```
 tacotron-2-mandarin-griffin-lim
-|- ...
-|- tacotron_output
-   |- eval
-   |- logs-eval
-      |- plots
-      |- wavs
-|- ...
+|--- ...
+|--- tacotron_output
+     |--- eval
+     |--- logs-eval
+          |--- plots
+          |--- wavs
+|--- ...
 ```
 
