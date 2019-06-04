@@ -28,14 +28,14 @@ Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network archit
 
 > OS: Ubuntu 16.04
 
-**Step (0)**  Git clone repository
+**Step (0)** - Git clone repository
 
 ```
 git clone https://github.com/Joee1995/tacotron-2-mandarin-griffin-lim.git
 cd tacotron-2-mandarin-griffin-lim/
 ```
 
-**Step (1)**  Install dependencies
+**Step (1)** - Install dependencies
 
 1. Install Python 3 (python-3.5.5 for me)
 
@@ -47,7 +47,7 @@ cd tacotron-2-mandarin-griffin-lim/
    pip install -r requirements.txt
    ```
 
-**Step (2)**  Prepare dataset
+**Step (2)** - Prepare dataset
 
 1. Download dataset [BIAOBEI](<https://www.data-baker.com/open_source.html>) or [THCHS-30](<http://www.openslr.org/18/>)
 
@@ -102,7 +102,7 @@ cd tacotron-2-mandarin-griffin-lim/
    |--- ...
    ```
 
-**Step (3)**  Train tacotron model
+**Step (3)** - Train tacotron model
 
 ```
 python train.py
@@ -123,13 +123,13 @@ tacotron-2-mandarin-griffin-lim
 |--- ...
 ```
 
-**Step (4)**  Synthesize audio
+**Step (4)** - Synthesize audio
 
 ```
 python synthesize.py
 ```
 
-More parameters, please see [train.py](<https://github.com/Joee1995/tacotron-2-mandarin-griffin-lim/blob/master/train.py>). 
+More parameters, please see [synthesize.py](<https://github.com/Joee1995/tacotron2-mandarin-griffin-lim/blob/master/synthesize.py>). 
 
 After that, you can get a folder `tacotron_output` as follow: 
 
