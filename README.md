@@ -24,6 +24,10 @@ Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network archit
 	     |--- linear
 	     |--- mels
 
+## Samples ##
+
+There are some synthesis samples [here](<https://github.com/Joee1995/tacotron2-mandarin-griffin-lim/tree/master/samples>).  
+
 ## Quick Start ##
 
 > OS: Ubuntu 16.04
@@ -143,4 +147,8 @@ tacotron-2-mandarin-griffin-lim
           |--- wavs
 |--- ...
 ```
+
+## References & Resources ##
+[Rayhane-mamah/Tacotron-2](<https://github.com/Rayhane-mamah/Tacotron-2>)  
+[My TTS Notes](<https://github.com/Joee1995/AI-Learning-Notes/tree/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/TTS>)  
 
