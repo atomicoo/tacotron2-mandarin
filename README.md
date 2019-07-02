@@ -28,6 +28,10 @@ Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network archit
 
 There are some synthesis samples [here](<https://github.com/Joee1995/tacotron2-mandarin-griffin-lim/tree/master/samples>).  
 
+## Pretrained ##
+
+you can get pretrained model [here](<https://github.com/Joee1995/tacotron2-mandarin-griffin-lim/tree/master/pretrained>).
+
 ## Quick Start ##
 
 > OS: Ubuntu 16.04
