@@ -43,7 +43,7 @@ you can get pretrained model [here](<https://github.com/Joee1995/tacotron2-manda
 **Step (0)** - Git clone repository
 
 ```
-git clone https://github.com/Joee1995/tacotron-2-mandarin-griffin-lim.git
+git clone https://github.com/atomicoo/tacotron2-mandarin-griffin-lim.git
 cd tacotron-2-mandarin-griffin-lim/
 ```
 
