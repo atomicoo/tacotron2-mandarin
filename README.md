@@ -1,5 +1,7 @@
 # 此仓库不再维护，最新工作见 [ParallelTTS](https://github.com/atomicoo/ParallelTTS)。
+
 # This repository is no longer maintained. Go [ParallelTTS](https://github.com/atomicoo/ParallelTTS) for the latest work.
+
 # tacotron-2-mandarin-griffin-lim
 Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network architecture described in this paper: [Natural TTS synthesis by conditioning Wavenet on MEL spectogram predictions](https://arxiv.org/abs/1712.05884)
 
