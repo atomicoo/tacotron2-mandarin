@@ -2,6 +2,14 @@
 
 # Go [ParallelTTS](https://github.com/atomicoo/ParallelTTS) for my latest work of TTS.
 
+---
+
+# Tacotron-2 的 PyTorch 实现，见 [Tacotron2-PyTorch](https://github.com/atomicoo/Tacotron2-PyTorch)。
+
+# PyTorch implementation of Tacotron-2, See [Tacotron2-PyTorch](https://github.com/atomicoo/Tacotron2-PyTorch).
+
+---
+
 # tacotron-2-mandarin
 Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network architecture described in this paper: [Natural TTS synthesis by conditioning Wavenet on MEL spectogram predictions](https://arxiv.org/abs/1712.05884)
 
