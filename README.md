@@ -1,12 +1,12 @@
-# 我的语音合成最新进展见 [ParallelTTS](https://github.com/atomicoo/ParallelTTS)。
+## 我的语音合成最新进展见 [ParallelTTS](https://github.com/atomicoo/ParallelTTS)。
 
-# Go [ParallelTTS](https://github.com/atomicoo/ParallelTTS) for my latest work of TTS.
+## Go [ParallelTTS](https://github.com/atomicoo/ParallelTTS) for my latest work of TTS.
 
 ---
 
-# Tacotron-2 的 PyTorch 实现，见 [Tacotron2-PyTorch](https://github.com/atomicoo/Tacotron2-PyTorch)。
+## Tacotron-2 的 PyTorch 实现，见 [Tacotron2-PyTorch](https://github.com/atomicoo/Tacotron2-PyTorch)。
 
-# PyTorch implementation of Tacotron-2, See [Tacotron2-PyTorch](https://github.com/atomicoo/Tacotron2-PyTorch).
+## PyTorch implementation of Tacotron-2, See [Tacotron2-PyTorch](https://github.com/atomicoo/Tacotron2-PyTorch).
 
 ---
 
